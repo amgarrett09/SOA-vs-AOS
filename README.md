@@ -11,3 +11,5 @@ There are a few reasons why SOA is faster:
 2. Modern CPUs have SIMD registers (Single Instruction Multiple Data) which allow them to do operations on a bunch of values at once. SIMD is much more effective if data is stored close to other data of the same type, as it is in the SOA approach.
 
 3. In the SOA style, because data is kept close to other data of the same type, you also don't pollute your cache with a bunch of data you're not using, so cache reads are more efficient.
+
+What is somewhat remarkable about the SOA approach is that it's an optimization that doesn't involve changing the algorithms we use. All we change is the way the data is organized, and in some instances we see the task get many times faster.
