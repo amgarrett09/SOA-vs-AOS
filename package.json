@@ -1,0 +1,13 @@
+{
+  "name": "soa-vs-aos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "update_fields.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Alex Garrett",
+  "license": "ISC",
+  "dependencies": {
+    "benchmark": "^2.1.4"
+  }
+}
